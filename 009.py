@@ -5,11 +5,11 @@
 # ---------------------------------
 
 import random
-numero = random.randint(1, 1000)
-palpite = int(input("Choose a random number between 1 and 1000: "))
+number = random.randint(1, 1000)
+guess = int(input("Choose a random number between 1 and 1000: "))
 
-if numero == palpite:
+if number == guess:
     print("Congratulations, your chances were weaks but you did it!")
 else:
-    print(f"The answer was: ", numero)
+    print(f"The answer was: ", number)
     print("Don't give up, try again!")
