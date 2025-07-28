@@ -5,5 +5,5 @@
 
 rich = False
 while rich != True:
-    print("VAI TRABALHAR")
+    print("GO TO WORK")
     break # This will stop the looping, no matter what ;) NOW
